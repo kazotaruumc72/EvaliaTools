@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bgsoftware</groupId>
+    <artifactId>WildTools</artifactId>
+    <version>2025.2</version>
+    <packaging>pom</packaging>
+
+    <name>WildTools</name>
+    <description>The most optimized all-in-one tools plugin!</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>8</java.version>
+        <archive.folder>${project.basedir}/archive</archive.folder>
+        <target.folder>${project.basedir}/target</target.folder>
+        <build.version>${project.version}</build.version>
+    </properties>
+
+    <modules>
+        <module>API</module>
+        <module>Hooks</module>
+        <module>NMS</module>
+        <module>Plugin</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>bg-software-nms</id>
+            <url>https://repo.bg-software.com/repository/nms/</url>
+        </repository>
+        <repository>
+            <id>bg-software-api</id>
+            <url>https://repo.bg-software.com/repository/api/</url>
+        </repository>
+        <repository>
+            <id>bg-software-common</id>
+            <url>https://repo.bg-software.com/repository/common/</url>
+        </repository>
+        <repository>
+            <id>bg-software-dependencies</id>
+            <url>https://repo.bg-software.com/repository/dependencies/</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.bgsoftware.common.reflection</groupId>
+                <artifactId>ReflectionUtils</artifactId>
+                <version>b8</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bgsoftware.common.reflection</groupId>
+            <artifactId>ReflectionUtils</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <defaultGoal>clean package</defaultGoal>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
