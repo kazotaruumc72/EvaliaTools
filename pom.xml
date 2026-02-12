@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bgsoftware</groupId>
-    <artifactId>WildTools</artifactId>
-    <version>2025.2</version>
-    <packaging>pom</packaging>
+    <artifactId>EvaliaTools</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
 
     <name>WildTools</name>
     <description>The most optimized all-in-one tools plugin!</description>
@@ -23,9 +23,6 @@
     </properties>
 
     <modules>
-        <module>API</module>
-        <module>Hooks</module>
-        <module>NMS</module>
         <module>Plugin</module>
     </modules>
 
