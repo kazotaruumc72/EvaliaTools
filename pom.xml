@@ -4,22 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bgsoftware</groupId>
+    <groupId>fr.robie</groupId>
     <artifactId>EvaliaTools</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>WildTools</name>
-    <description>The most optimized all-in-one tools plugin!</description>
+    <name>EvaliaTools</name>
 
     <properties>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <java.version>8</java.version>
-        <archive.folder>${project.basedir}/archive</archive.folder>
-        <target.folder>${project.basedir}/target</target.folder>
-        <build.version>${project.version}</build.version>
     </properties>
 
     <modules>
