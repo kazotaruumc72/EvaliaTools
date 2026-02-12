@@ -148,6 +148,7 @@ tools:
     only-same-type: false
     unbreakable: true
     type: DIAMOND_PICKAXE
+    custom-model: 1
     name: '&f --{ &a&lTrench Pickaxe &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -177,6 +178,7 @@ tools:
     only-same-type: false
     unbreakable: true
     type: DIAMOND_PICKAXE
+    custom-model: 2
     name: '&f --{ &c&lTray Pickaxe &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -198,6 +200,7 @@ tools:
     cooldown: 2000
     uses: 500
     type: DIAMOND_HOE
+    custom-model: 3
     name: '&f --{ &e&lSand Wand &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -217,6 +220,7 @@ tools:
     cooldown: 5000
     uses: 50
     type: STICK
+    custom-model: 4
     name: '&f --{ &6&lSell Wand &7(Tier I) &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -233,6 +237,7 @@ tools:
     uses: 50
     multiplier: 1.5
     type: STICK
+    custom-model: 5
     name: '&f --{ &6&lSell Wand &7(Tier II) &f}-- '
     lore:
       - '&8&m---------------------------------------'
@@ -249,6 +254,7 @@ tools:
     tool-mode: LIGHTNING
     type: STICK
     uses: 5
+    custom-model: 6
     name: '&f --{ &b&lLightning Wand &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -264,6 +270,7 @@ tools:
     type: STICK
     radius: 5
     uses: 500
+    custom-model: 7
     name: '&f --{ &4&lMagnet Wand &f}-- '
     lore:
       - '&8&m---------------------------------------'
@@ -280,6 +287,7 @@ tools:
     auto-collect: true
     type: DIAMOND_HOE
     uses: 500
+    custom-model: 8
     name: '&f --{ &d&lHarvester Hoe &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -295,6 +303,7 @@ tools:
     tnt-amount: 64
     type: DIAMOND_AXE
     uses: 30
+    custom-model: 9
     name: '&f --{ &5&lCannon Wand &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -309,6 +318,7 @@ tools:
     tool-mode: CRAFTING
     type: STICK
     uses: 3000
+    custom-model: 10
     name: '&f --{ &9&lCrafting Wand &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -325,6 +335,7 @@ tools:
     type: DIAMOND_AXE
     uses: 1000
     length: 5
+    custom-model: 11
     name: '&f --{ &2&lBuilder Wand &f}-- '
     lore:
     - '&8&m---------------------------------------'
@@ -340,6 +351,7 @@ tools:
     type: STICK
     uses: 300
     radius: 10
+    custom-model: 12
     name: '&f --{ &3&lIce Melter &f}-- '
     lore:
     - '&8&m---------------------------------------'
